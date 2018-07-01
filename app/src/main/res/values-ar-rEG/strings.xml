@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"مفكرة "</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="signup">إنشاء حساب</string>
+    <string name="googlelogin">تسجيل دخول بواسطة جوجل</string>
+    <string name="dont_have_account">ليس لديك حساب</string>
+    <string name="or">أو</string>
+    <string name="have_account">لديك حساب</string>
+    <string name="google_sign_up">انشاء حساب بواسطة جوجل</string>
+    <string name="log_out">تسجيل خروج</string>
+    <string name="favourite">المفضلة</string>
+    <string name="edit_note">"تعديل "</string>
+    <string name="update_note">"تحديث "</string>
+    <string name="title_activity_basic_journal">افكارك ستظهر هنا :)</string>
+</resources>

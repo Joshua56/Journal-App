@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Journal App</string>
+    <string name="login">LOG IN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="googlelogin">LOG IN WITH GOOGLE</string>
+    <string name="dont_have_account">don"'"t have account</string>
+    <string name="or">OR</string>
+    <string name="have_account">have account</string>
+    <string name="google_sign_up">SIGN UP WITH GOOGLE</string>
+    <string name="log_out">Log out</string>
+    <string name="favourite">Favourite</string>
+    <string name="edit_note">Edit note</string>
+    <string name="update_note">Update note</string>
+    <string name="title_activity_basic_journal">Journal App</string>
+
+
+</resources>

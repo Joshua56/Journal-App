@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activities.SignInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/opacity_dark"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/layout_margin"
+            android:layout_marginTop="@dimen/layout_margin_Top"
+            android:text="@string/app_name"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/logo_size" />
+
+        <EditText
+            android:id="@+id/email_phone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/email_felied"
+            android:layout_margin="@dimen/layout_margin"
+            android:hint="Email address"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/email_felied"
+            android:layout_margin="@dimen/layout_margin"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin"
+            android:layout_marginRight="@dimen/layout_margin"
+            android:layout_marginTop="@dimen/layout_margin"
+            android:background="@color/colorPrimary"
+            android:onClick="SignInWithEmail"
+            android:text="@string/login"
+            android:textColor="@color/icons" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/email_felied"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/layout_margin_small"
+            android:layout_marginLeft="@dimen/layout_margin"
+            android:layout_marginRight="@dimen/layout_margin"
+            android:layout_marginTop="@dimen/layout_margin_small"
+            android:gravity="center"
+            android:text="@string/or"
+            android:textColor="@color/icons" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/google_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin"
+            android:layout_marginRight="@dimen/layout_margin"
+            android:background="@color/colorPrimary"
+            android:onClick="signInByGoogle"
+            android:text="@string/googlelogin"
+            android:textColor="@color/icons" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/email_felied"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/layout_margin_small"
+            android:layout_marginLeft="@dimen/layout_margin"
+            android:layout_marginRight="@dimen/layout_margin"
+            android:layout_marginTop="@dimen/layout_margin_small"
+            android:gravity="center"
+            android:text="@string/dont_have_account"
+            android:textColor="@color/primary_text" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="openSignUP"
+            android:text="@string/signup"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+</LinearLayout>

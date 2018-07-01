@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="logo_size">15sp</dimen>
+    <dimen name="email_felied">20dp</dimen>
+    <dimen name="layout_margin">8dp</dimen>
+    <dimen name="layout_margin_Top">32dp</dimen>
+    <dimen name="layout_margin_small">4dp</dimen>
+    <dimen name="text_size">7sp</dimen>
+
+
+</resources>
